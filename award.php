@@ -37,7 +37,7 @@
   <div class="container my-5">
     <div class="row">
       <div class="col-md-6">
-        <img src="https://via.placeholder.com/1200x400" style="height: auto; width: 100%;" alt="Awards & Recognition" class="img-fluid">
+        <img src="images/award.png" style="height: auto; width: 100%;" alt="Awards & Recognition" class="img-fluid">
       </div>
       <div class="col-md-6">
         <h2 class="mt-3">Awards & Recognition</h2>
@@ -77,22 +77,22 @@
     <div class="row mt-5">
       <h2>Award Winners</h2>
       <div class="col-md-3">
-        <img src="https://via.placeholder.com/200" alt="Professor Mark Scott AO">
+        <img src="images/award1.png" alt="Professor Mark Scott AO">
         <h5>Professor Mark Scott AO</h5>
         <p>Vice-Chancellor and Principal</p>
       </div>
       <div class="col-md-3">
-        <img src="https://via.placeholder.com/200" alt="Professor Pip Pattison">
+        <img src="images/award2.png" alt="Professor Pip Pattison">
         <h5>Professor Pip Pattison</h5>
         <p>Deputy Vice-Chancellor (Education)</p>
       </div>
       <div class="col-md-3">
-        <img src="https://via.placeholder.com/200" alt="Professor Duncan Ivison">
+        <img src="images/award3.png" alt="Professor Duncan Ivison">
         <h5>Professor Duncan Ivison</h5>
         <p>Deputy Vice-Chancellor (Research)</p>
       </div>
       <div class="col-md-3">
-        <img src="https://via.placeholder.com/200" alt="Professor Stephen Garton">
+        <img src="images/award1.png" alt="Professor Stephen Garton">
         <h5>Professor Stephen Garton</h5>
         <p>Provost and Deputy Vice-Chancellor</p>
       </div>

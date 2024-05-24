@@ -42,7 +42,7 @@
   
   <section class="hero-section">
     <div class="container">
-      <img src="https://via.placeholder.com/1200x400" class="img-fluid" alt="Hero Image">
+      <img src="images/about.png" class="img-fluid" alt="Hero Image">
     </div>
   </section>
   
@@ -110,7 +110,7 @@
           <p>Professor Mark Scott AO is Vice-Chancellor and Principal of the University of Sydney.</p>
         </div>
         <div class="col-md-6 d-flex justify-content-end">
-          <img src="https://via.placeholder.com/200" alt="Professor Mark Scott AO">
+          <img src="images/about1.png" alt="Professor Mark Scott AO">
         </div>
       </div>
       <div class="row align-items-center mt-4">
@@ -120,7 +120,7 @@
           <p>Professor Pip Pattison is Deputy Vice-Chancellor (Education) at the University of Sydney.</p>
         </div>
         <div class="col-md-6 d-flex justify-content-end">
-          <img src="https://via.placeholder.com/200" alt="Professor Pip Pattison">
+          <img src="images/about2.png" alt="Professor Pip Pattison">
         </div>
       </div>
       <div class="row align-items-center mt-4">
@@ -130,7 +130,7 @@
           <p>Professor Duncan Ivison is Deputy Vice-Chancellor (Research) at the University of Sydney.</p>
         </div>
         <div class="col-md-6 d-flex justify-content-end">
-          <img src="https://via.placeholder.com/200" alt="Professor Duncan Ivison">
+          <img src="images/about3.png" alt="Professor Duncan Ivison">
         </div>
       </div>
       <div class="row align-items-center mt-4">
@@ -140,7 +140,7 @@
           <p>Professor Stephen Garton is Provost and Deputy Vice-Chancellor at the University of Sydney.</p>
         </div>
         <div class="col-md-6 d-flex justify-content-end">
-          <img src="https://via.placeholder.com/200" alt="Professor Stephen Garton">
+          <img src="images/about4.png" alt="Professor Stephen Garton">
         </div>
       </div>
     </div>

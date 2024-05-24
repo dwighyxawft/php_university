@@ -48,7 +48,7 @@ $setters = new Setters();
     <div class="row">
       <div class="col-md-12">
         <div class="hero-image">
-          <img src="https://via.placeholder.com/1200x500" class="img-fluid" alt="UC Berkeley">
+          <img src="images/about.png" class="img-fluid" alt="UC Berkeley">
           <div class="hero-text">
             <h1>Discover the world of UC Berkeley</h1>
             <div class="input-group mb-3">
