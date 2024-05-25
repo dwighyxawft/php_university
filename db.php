@@ -11,8 +11,8 @@ class Setters{
     public $home;
     function __construct(){
         $this->servername = "localhost";
-        $this->username = "dwightxawft";
-        $this->password = "timilehin1.";
+        $this->username = "root";
+        $this->password = "";
         $this->dbname = "university_db";
         $this->home = "http://localhost/university/";
         $this->conn = mysqli_connect($this->servername, $this->username, $this->password, $this->dbname);
