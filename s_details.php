@@ -15,9 +15,9 @@
     $faculty_id = $department["faculty_id"];
     $setters->query = "SELECT * FROM courses WHERE staff_id='$staff_id'";
     $courses = $setters->fetch_all();
-    $setters->query = "SELECT * FROM faculty WHERE ='$faculty_id'";
+    $setters->query = "SELECT * FROM faculty WHERE faculty_id = '$faculty_id'";
     $faculty = $setters->fetch_assoc();
-    $setters->query = "SELECT * FROM publication WHERE staff_id='$staff_id'";
+    $setters->query = "SELECT * FROM publications WHERE staff_id='$staff_id'";
     $publications = $setters->fetch_all();
 ?>
 <!DOCTYPE html>
@@ -138,24 +138,18 @@
 
     <div class="publications">
       <h3>Recent Publications</h3>
-      <div class="list-item">
-        <div class="icon">
-          <i class="bi bi-file-earmark-text"></i>
+      <?php foreach($publications as $publication){ ?>
+        <div class="list-item">
+          <div class="icon">
+            <i class="bi bi-file-earmark-text"></i>
+          </div>
+          <div><?php echo $publication["title"];?></div>
+          <div class="ms-auto">
+            <a href="<?php echo $publication["file"];?>" download="<?php echo $publication["file"];?>"><i class="bi bi-link"></i></a>
+          </div>
         </div>
-        <div><?php echo $publication[0]["title"];?></div>
-        <div class="ms-auto">
-          <a href="<?php echo $publication[0]["file"];?>" download="<?php echo $publication[0]["file"];?>"><i class="bi bi-link"></i></a>
-        </div>
-      </div>
-      <div class="list-item">
-        <div class="icon">
-          <i class="bi bi-file-earmark-text"></i>
-        </div>
-        <div><?php echo $publication[1]["title"];?></div>
-        <div class="ms-auto">
-          <a href="<?php echo $publication[1]["file"];?>" download="<?php echo $publication[1]["file"];?>"><i class="bi bi-link"></i></a>
-        </div>
-      </div>
+      <?php } ?>
+      
     </div>
 
     <div class="qualifications">

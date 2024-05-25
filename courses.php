@@ -52,19 +52,19 @@ $courses = $setters->fetch_all();
   </header>
 
   <div class="container">
-    <h2>Publications</h2>
+    <h2 class="mt-3">Course Materials</h2>
     <input class="form-control mb-3" type="text" placeholder="Search for a publication">
 
     <div class="list-group">
       <?php if(count($courses) > 0) {
       foreach($courses as $course){
         $course_id = $course["course_id"];
-        $setters->query = "SELECT * FROM material WHERE staff_id='$staff_id' AND course_id='$course_id'";
+        $setters->query = "SELECT * FROM materials WHERE staff_id='$staff_id' AND course_id='$course_id'";
         $material = $setters->fetch_all();
         ?>
         <div class="list-group-item publication-item">
             <img src="<?php echo $course["image"];?>" alt="Book Icon">
-            <?php echo $courses["name"];?>
+            <?php echo $course["name"];?>
             <?php if($material){ ?>
                 <a download="<?php echo $material["file_path"];?>" class="btn btn-primary btn-sm">Download PDF</a>
             <?php }?>

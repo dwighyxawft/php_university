@@ -86,8 +86,8 @@ $materials = $setters->fetch_all();
     <div class="row mt-5">
       <div class="col-md-4">
         <h5>Departmental Facts</h5>
-        <p>#<?php echo $department["fee"];?>.00 per semester</p>
-        <p><?php echo $department["student"];?> undergraduates</p>
+        <p>#<?php echo $department["fees"];?>.00 per semester</p>
+        <p><?php echo $department["students"];?> undergraduates</p>
       </div>
       <div class="col-md-8">
         <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -132,7 +132,7 @@ $materials = $setters->fetch_all();
       </div>
       <div class="col-md-6">
         <h5>Enrollment</h5>
-        <p class="display-4"><?php echo $department["student"];?></p>
+        <p class="display-4"><?php echo $department["students"];?></p>
         <p>Students enrolled</p>
         <h5 class="mt-4"><?php echo $course["name"];?></h5>
         <p><?php echo $course["description"];?></p>

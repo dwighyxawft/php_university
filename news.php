@@ -65,7 +65,7 @@ $setters = new Setters();
       <?php
       $setters->query = "SELECT * FROM news";
       $news_count = $setters->total_rows();
-      if($_GET["start"]){
+      if(isset($_GET["start"])){
         $start = $_GET["start"];
         $setters->query = "SELECT * FROM news LIMIT 12 OFFSET $start";
       }else{
