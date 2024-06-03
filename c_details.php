@@ -17,7 +17,7 @@ $setters->query = "SELECT * FROM staff WHERE staff_id='$staff_id'";
 $staff = $setters->fetch_assoc();
 $setters->query = "SELECT * FROM staff WHERE department_id='$department_id' AND role='H.O.D'";
 $head = $setters->fetch_assoc();
-$setters->query = "SELECT * FROM materials WHERE staff_id='$staff_id' AND course_id='$course_id'";
+$setters->query = "SELECT * FROM materials WHERE course_id='$course_id'";
 $materials = $setters->fetch_all();
 
 ?>
@@ -102,10 +102,10 @@ $materials = $setters->fetch_all();
           </div>
           <div class="col">
             <div class="card h-100">
-              <img src="<?php echo $head["image"];?>" class="card-img-top" alt="<?php echo $head["name"];?>">
+              <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="<?php echo $head["name"];?>">
               <div class="card-body">
-                <h5 class="card-title"><?php echo $head["name"];?></h5>
-                <p class="card-text"><?php echo $head["bio"];?></p>
+                <h5 class="card-title">Dwighy Xawft</h5>
+                <p class="card-text">Lorem ipsum sit amet consecteur dolor adspliliscing. Lorem ipsum sit amet consecteur dolor adspliliscing.</p>
               </div>
             </div>
           </div>

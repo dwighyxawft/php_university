@@ -90,19 +90,26 @@
     <div class="row">
         <div class="col-12">
             <h2>Departmental Courses</h2>
-            <?php foreach($courses as $course){ ?>
                 <div class="row mt-3">
-                    <a href="c_details.php?course_id=<?php echo $course["course_id"];?>" style="text-decoration:none;">
-                        <div class="col-md-6">
-                            <h3><?php echo $course["code"];?>: <?php echo $course["name"];?></h3>
-                            <p><?php echo $course["description"];?></p>
+                    <?php foreach($courses as $course){ ?>
+                        <div class="col-md-4 mt-3">
+                            <a href="c_details.php?course_id=<?php echo $course["course_id"];?>" style="text-decoration:none;">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="col-md-6">
+                                            <h5 class="card-title"><?php echo $course["code"];?>: <?php echo $course["name"];?></h5>
+                                        </div>
+                                        <p class="card-text"><?php echo $course["description"];?></p>
+                                    </div>
+                                    <div class="card-footer">
+                                        <img src="<?php echo $course["image"];?>" class="course-image w-100" alt="<?php echo $course["name"];?>">
+                                    </div>
+                                </div>
+                            </a>
                         </div>
-                        <div class="col-md-6">
-                            <img src="<?php echo $course["image"];?>" class="course-image" alt="<?php echo $course["name"];?>">
-                        </div>  
-                    </a>
+                    <?php } ?>
                 </div>
-            <?php } ?>
+            
         </div>
     </div>
     <div class="row department-info">
