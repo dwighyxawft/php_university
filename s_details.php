@@ -89,7 +89,7 @@
   <header class="bg-light py-3">
     <div class="container">
       <div class="d-flex justify-content-between align-items-center">
-        <a class="navbar-brand" href="#">University</a>
+        <a class="navbar-brand" href="#"><img src="images/oou.png" width="100" alt=""></a>
         <nav>
           <ul class="nav">
             <li class="nav-item"><a class="nav-link" href="courses.php?staff_id=<?php echo $staff_id;?>">Courses</a></li>

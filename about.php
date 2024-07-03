@@ -31,18 +31,18 @@
   </style>
 </head>
 <body>
-  <header class="bg-light py-3">
+<header class="bg-light py-3">
     <div class="container">
-      <div class="d-flex justify-content-between align-items-center">
-        <a class="navbar-brand" href="#">University</a>
-        <?php require("./nav.php"); ?>
-      </div>
+        <div class="d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="#"><img src="images/oou.png" width="100" alt=""></a>
+            <?php require("./nav.php"); ?>
+        </div>
     </div>
   </header>
   
   <section class="hero-section">
     <div class="container">
-      <img src="images/about.png" class="img-fluid" alt="Hero Image">
+      <img src="images/tetfund.jpeg" class="img-fluid" alt="Hero Image">
     </div>
   </section>
   

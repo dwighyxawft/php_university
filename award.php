@@ -25,14 +25,14 @@
   </style>
 </head>
 <body>
-    <header class="bg-light py-3">
-        <div class="container">
-            <div class="d-flex justify-content-between align-items-center">
-                <a class="navbar-brand" href="#">University Awards</a>
-                <?php require("./nav.php"); ?>
-            </div>
+<header class="bg-light py-3">
+    <div class="container">
+        <div class="d-flex justify-content-between align-items-center">
+            <a class="navbar-brand" href="#"><img src="images/oou.png" width="100" alt=""></a>
+            <?php require("./nav.php"); ?>
         </div>
-      </header>
+    </div>
+  </header>
 
   <div class="container my-5">
     <div class="row">
@@ -77,24 +77,24 @@
     <div class="row mt-5">
       <h2>Award Winners</h2>
       <div class="col-md-3">
-        <img src="images/award1.png" alt="Professor Mark Scott AO">
-        <h5>Professor Mark Scott AO</h5>
-        <p>Vice-Chancellor and Principal</p>
+        <img src="images/image1.jpeg" alt="Professor S. H. Tomori">
+        <h5>Professor S. H. Tomori</h5>
+        <p>Professor of Education</p>
       </div>
       <div class="col-md-3">
-        <img src="images/award2.png" alt="Professor Pip Pattison">
-        <h5>Professor Pip Pattison</h5>
-        <p>Deputy Vice-Chancellor (Education)</p>
+        <img src="images/image2.jpeg" alt="Professor Pip Pattison">
+        <h5>Faculty of Law</h5>
+        <p>Best Graduating Student 21</p>
       </div>
       <div class="col-md-3">
-        <img src="images/award3.png" alt="Professor Duncan Ivison">
-        <h5>Professor Duncan Ivison</h5>
-        <p>Deputy Vice-Chancellor (Research)</p>
+        <img src="images/image3.jpeg" alt="Professor of Arts">
+        <h5>Faculty of Arts</h5>
+        <p>Professor of Arts</p>
       </div>
       <div class="col-md-3">
-        <img src="images/award1.png" alt="Professor Stephen Garton">
-        <h5>Professor Stephen Garton</h5>
-        <p>Provost and Deputy Vice-Chancellor</p>
+        <img src="images/image4.jpeg" alt="Best Graduating Master Student">
+        <h5>Faculty of Education</h5>
+        <p>Best Graduating Master Student 22 </p>
       </div>
     </div>
   </div>
